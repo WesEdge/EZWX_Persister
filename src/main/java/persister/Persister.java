@@ -12,10 +12,10 @@ public class Persister implements MQActor  {
     }
 
     public void execute(MQArgs args) throws IOException{
-        String todo = "todo";
-        // get the memcached key from the args
-        // get the cached grib file
-        // decode & persist data
+
+        byte[] gribBytes = args.getBytes();
+
+        // TODO: decode the grib file and persist
 
     }
 
