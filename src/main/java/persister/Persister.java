@@ -13,9 +13,9 @@ public class Persister implements MQActor  {
 
     public void execute(MQArgs args) throws IOException{
 
-        byte[] gribBytes = args.getBytes();
+        String memCachedKey = args.getMessage();
 
-        // TODO: decode the grib file and persist
+        // TODO: get grib file from memcached, decode the grib file and persist (look at Persister.java execute function)
 
     }
 
