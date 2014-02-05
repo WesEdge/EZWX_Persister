@@ -78,10 +78,6 @@ public class PersisterTest {
                 writeKVP("unscaled Lo1", gdsVars.getUnscaledLo1()); //  238445999
 
 
-
-
-
-
                 write("------- END GDS -------");
                 break;
             }
